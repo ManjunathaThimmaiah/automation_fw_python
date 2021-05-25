@@ -39,7 +39,7 @@ Add API key to run the API test by adding below variable string under the file D
 #### **Running code through python**
 The application can be run directly through python after fullfilling the above mentioned configuration:
 
-- **Set the python path**
+- **Install mypthon**
 
     ```
     python3 must be installed , the project is build on python3.9
