@@ -28,6 +28,11 @@ Architeture:
 Add API key to run the API test by adding below variable string under the file Data/config_data.py
 
     APIKEY: str = ''
+    geckodriver_path = ''
+    
+    Download gecko driver from the link below and set executable path for mac
+    
+    https://github.com/mozilla/geckodriver/releases/tag/v0.29.1
 
 
     
@@ -64,6 +69,8 @@ The application can be run directly through python after fullfilling the above m
     ```
     pip install -r requirements.txt
     ```
+
+  https://github.com/ManjunathaThimmaiah/automation_fw_python/blob/master/tests/conftest.py
 - **Run Project** 
 
     To run test suite run the below command in the console:
