@@ -4,10 +4,6 @@
 Project is developed based on page object factory organised as per the pages classes.
 
 
-Architeture:
-
-- 
-
 ### **Running project**
 - #### Step 1: Clone repo
     First you need to clone the repo to your local
