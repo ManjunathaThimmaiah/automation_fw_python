@@ -56,7 +56,7 @@ The application can be run directly through python after fullfilling the above m
 - **Install project**
 
     Clone the repo as mentioned in step1
-    ```
+
     
 - **Install dependencies**
 
