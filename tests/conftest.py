@@ -1,5 +1,6 @@
 from selenium import webdriver
 import pytest
+from Data.config_data import FE_TestData
 
 
 @pytest.fixture()
@@ -14,7 +15,7 @@ def oneTimeSetUp(request, browser):
         url = "https://wegodeliver.here.com/"
         profile = webdriver.FirefoxProfile()
         profile.set_preference("geo.enabled", False)
-        driver = webdriver.Firefox(executable_path="/Users/manjunatha.thimmaiah/Documents/Drivers/geckodriver",
+        driver = webdriver.Firefox(executable_path=FE_TestData.geckodriver_path,
                                    firefox_profile=profile)
         driver.maximize_window()
         driver.implicitly_wait(1)

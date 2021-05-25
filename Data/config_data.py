@@ -18,6 +18,8 @@ class FE_TestData():
     fileName = "here-wego-deliver-template.csv"
     currentDirectory = os.path.dirname(__file__)
     destinationFile: str = os.path.join(currentDirectory, fileName)
+    # geckodriver_path = "/Users/manjunatha.thimmaiah/Documents/Drivers/geckodriver"
+    geckodriver_path = ""
 
 
 
